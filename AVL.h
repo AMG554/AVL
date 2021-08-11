@@ -6,7 +6,8 @@
 class AVL : public BST
 {
 public:
-	bool displayRotations = true;
+	//made false because not needed for task
+	bool displayRotations = false;
 
 	//works out height of sub tree
 	int height(StudentNode* node);

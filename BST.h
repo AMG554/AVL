@@ -8,7 +8,7 @@
 //everything smaller than root, is stored o left branch somewhere
 // everything else to the right
 
-//HELPER CLASS FOR OUTPUT
+//Helper class to output
 class StudentLevelNode {
 public:
 	StudentNode* student;
@@ -21,6 +21,8 @@ public:
 		this->level = level;
 	}
 };
+
+//StudentNode class
 class BST
 {
 public:
@@ -34,6 +36,6 @@ public:
 	void preOrderTraversal(StudentNode* current);
 	void postOrderTraversal(StudentNode* current);
 
-	//show
+	//show function for output file
 	void show(StudentNode* p);
 };

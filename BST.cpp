@@ -125,6 +125,8 @@ void BST::postOrderTraversal(StudentNode* current)
 	}
 }
 
+
+//outputs bfs tree to text file
 void BST::show(StudentNode* p)
 {
 	ofstream  writeFile;

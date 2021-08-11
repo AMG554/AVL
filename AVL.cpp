@@ -30,6 +30,7 @@ int AVL::difference(StudentNode* node)
     return balanceFactor;
 }
 
+
 StudentNode* AVL::RRrotation(StudentNode* parent)
 {
     StudentNode* temp = parent->rightChild;
